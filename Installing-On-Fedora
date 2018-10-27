@@ -45,5 +45,5 @@ $ sudo dnf install docker-ce
 # To start the Docker
 $ sudo systemctl start docker
 
-# Verify that Docker CE is installed correctly by running the hello-world image (packed along with docker)
+# Verify that Docker CE is installed correctly by running the hello-world image (docker will pull up the image)
 $ sudo docker run hello-world
