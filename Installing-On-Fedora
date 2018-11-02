@@ -47,3 +47,8 @@ $ sudo systemctl start docker
 
 # Verify that Docker CE is installed correctly by running the hello-world image (docker will pull up the image)
 $ sudo docker run hello-world
+
+
+# If you get a sock error. Try to set the permissions for the docker.sock as given below
+$ sudo chmod 666 /var/run/docker.sock
+
